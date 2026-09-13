@@ -45,6 +45,7 @@ dependencies:
   device_info_plus: ^13.2.0
   dio: ^5.9.2
   flutter_vector_icons: ^2.0.0
+  flutter_image_compress: ^2.5.1
   flutter_rust_bridge: 2.13.0-beta.6
   flutter_rust_bridge_hooks: 2.13.0-beta.6
 
