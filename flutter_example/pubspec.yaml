@@ -71,6 +71,10 @@ dependencies:
   skeletonizer: ^2.1.3
   fl_chart: ^1.2.0
   percent_indicator: ^4.2.5
+  # Vendored fork of flutter_google_cast (upstream 1.4.8 + SwiftPM registrant
+  # fixes, iOS floor 16.0) from https://github.com/stonemaster/xcross-test2.
+  flutter_chrome_cast:
+    path: packages/flutter_chrome_cast
 
 dev_dependencies:
   drift_dev: ^2.31.0
