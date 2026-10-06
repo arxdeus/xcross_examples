@@ -36,10 +36,21 @@ class UnifiedApp extends StatelessWidget {
   }
 }
 
-class UnifiedHomePage extends StatelessWidget {
+class UnifiedHomePage extends StatefulWidget {
   const UnifiedHomePage({super.key, required this.rustCounterFactory});
 
   final RustCounterFactory rustCounterFactory;
+
+  @override
+  State<UnifiedHomePage> createState() => _UnifiedHomePageState();
+}
+
+class _UnifiedHomePageState extends State<UnifiedHomePage> {
+  @override
+  void initState() {
+    super.initState();
+    debugPrint('XCROSS_FLUTTER_EXAMPLE_READY');
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -48,7 +59,7 @@ class UnifiedHomePage extends StatelessWidget {
         title: 'Rust counter',
         subtitle: 'State managed by flutter_rust_bridge native assets',
         icon: Icons.memory,
-        page: RustCounterPage(counterFactory: rustCounterFactory),
+        page: RustCounterPage(counterFactory: widget.rustCounterFactory),
       ),
       const _Feature(
         title: 'Firebase actions',
