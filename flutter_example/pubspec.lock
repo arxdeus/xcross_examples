@@ -409,6 +409,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.2"
+  cookie_jar:
+    dependency: transitive
+    description:
+      name: cookie_jar
+      sha256: "963da02c1ef64cb5ac20de948c9e5940aa351f1e34a12b1d327c83d85b7e8fff"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.9"
   coverage:
     dependency: transitive
     description:
@@ -489,6 +497,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.15"
+  desktop_webview_window:
+    dependency: transitive
+    description:
+      name: desktop_webview_window
+      sha256: b6fdae2cbf9571879b1761c12f27facaf82e22d0bdc74d049907c2a09a432957
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.0"
   device_info_plus:
     dependency: "direct main"
     description:
@@ -521,6 +537,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.11.0"
+  dio_cookie_manager:
+    dependency: transitive
+    description:
+      name: dio_cookie_manager
+      sha256: "4ed4669cacb11931517c1158876a2189f19386674b9dab498abcca063dbe4c61"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.5.0"
   dio_web_adapter:
     dependency: transitive
     description:
@@ -830,6 +854,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_better_auth:
+    dependency: "direct main"
+    description:
+      name: flutter_better_auth
+      sha256: "06de7afe9af431175bc6d19c230e45c5a00f833ec10be0e2c0738725a72e5e3c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.5"
   flutter_bloc:
     dependency: "direct main"
     description:
@@ -1015,6 +1047,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.4.8"
+  flutter_plugin_android_lifecycle:
+    dependency: transitive
+    description:
+      name: flutter_plugin_android_lifecycle
+      sha256: "3854fe5e3bff0b113c658f260b90c95dea17c92db0f2addeac2e343dd9969785"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.35"
   flutter_quill:
     dependency: "direct main"
     description:
@@ -1140,11 +1180,35 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.0"
+  flutter_web_auth_2:
+    dependency: transitive
+    description:
+      name: flutter_web_auth_2
+      sha256: a7655829251ee63aae64a748f8512f36670d8eba4657b0055cdf5ef304a9d164
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.0"
+  flutter_web_auth_2_platform_interface:
+    dependency: transitive
+    description:
+      name: flutter_web_auth_2_platform_interface
+      sha256: ba0fbba55bffb47242025f96852ad1ffba34bc451568f56ef36e613612baffab
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.0"
   flutter_web_plugins:
     dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
+  freezed_annotation:
+    dependency: transitive
+    description:
+      name: freezed_annotation
+      sha256: "7294967ff0a6d98638e7acb774aac3af2550777accd8149c90af5b014e6d44d8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.0"
   frontend_server_client:
     dependency: transitive
     description:
@@ -1254,6 +1318,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.2"
+  hive_ce:
+    dependency: transitive
+    description:
+      name: hive_ce
+      sha256: "85d43209e2b4903a95d65d054407ea9ad4989d17b4d47e71732070d41b427c87"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.20.2"
   hooks:
     dependency: transitive
     description:
@@ -1363,6 +1435,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
+  isolate_channel:
+    dependency: transitive
+    description:
+      name: isolate_channel
+      sha256: a9d3d620695bc984244dafae00b95e4319d6974b2d77f4b9e1eb4f2efe099094
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.1"
   jni:
     dependency: transitive
     description:
@@ -1411,6 +1491,54 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.1.0"
+  local_auth:
+    dependency: "direct main"
+    description:
+      name: local_auth
+      sha256: ecf24edf2283c509ecd217e3595f6f71034b68888d28ad1dae6bfa0857b816ac
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.2"
+  local_auth_android:
+    dependency: transitive
+    description:
+      name: local_auth_android
+      sha256: "76c389998fe95cff4352644776ab5775f24ddd58f179dbf3df1b9c268cbbadc4"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.0"
+  local_auth_darwin:
+    dependency: transitive
+    description:
+      name: local_auth_darwin
+      sha256: b1b2d938cc3511512e552d92e782e055b8dc29c83e21c59e6ecfc6bd79ab0744
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.4"
+  local_auth_platform_interface:
+    dependency: transitive
+    description:
+      name: local_auth_platform_interface
+      sha256: f98b8e388588583d3f781f6806e4f4c9f9e189d898d27f0c249b93a1973dd122
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
+  local_auth_windows:
+    dependency: transitive
+    description:
+      name: local_auth_windows
+      sha256: d72b8a441e5e6a679902f87c51529fcce65f442d77598484cf35454c3d733eda
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.2"
+  logger:
+    dependency: transitive
+    description:
+      name: logger
+      sha256: "2a0dc097e7b01d942475bdd552356db2d0f768b05540bd4b2b53f1840f2239a7"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.8.0"
   logging:
     dependency: transitive
     description:
@@ -1571,6 +1699,62 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.0"
+  passkeys:
+    dependency: "direct main"
+    description:
+      name: passkeys
+      sha256: b3230c542246d7f90093e8ce00cf8552006cf5e54dbc1cb9b593f12f85d20705
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.23.1"
+  passkeys_android:
+    dependency: transitive
+    description:
+      name: passkeys_android
+      sha256: "92e7607612a6cf6fc8c6590384ffc25f98e9cad1154b17c84d6ccf251ba25c31"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.14.1"
+  passkeys_darwin:
+    dependency: transitive
+    description:
+      name: passkeys_darwin
+      sha256: ceb245f1c98fa25119fd2795ebe8dc39dd7a6b443de77bf58fde9f5ff76237b9
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.5"
+  passkeys_doctor:
+    dependency: transitive
+    description:
+      name: passkeys_doctor
+      sha256: "44eefcc28603cdeb052e7a6b5fd8642f47e54bb5450ffbd7da3dc0e2a728bb7b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.6.2"
+  passkeys_platform_interface:
+    dependency: transitive
+    description:
+      name: passkeys_platform_interface
+      sha256: "5fca044a6f1a3c5abff645ca5a5417b613c130d1c4e08513ba9182c7f4834619"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.10.0"
+  passkeys_web:
+    dependency: transitive
+    description:
+      name: passkeys_web
+      sha256: "5a02f256914eeb5d06d1b5a8e552c6a2837a7364d7591c14b06a992fcc4da051"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.10.1"
+  passkeys_windows:
+    dependency: transitive
+    description:
+      name: passkeys_windows
+      sha256: "43d116e42324788e1cddc1ba6e98a32a28ccc47f68508c4cd4a19e6309daa127"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.5"
   path:
     dependency: "direct main"
     description:
@@ -1859,6 +2043,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
+  retrofit:
+    dependency: transitive
+    description:
+      name: retrofit
+      sha256: d700c1e7599bc6327cbe19ec7a2c87b595f6063ce888e8015f30cab655972331
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.10.0"
   retry:
     dependency: transitive
     description:
@@ -1883,6 +2075,46 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.28.0"
+  screen_retriever:
+    dependency: transitive
+    description:
+      name: screen_retriever
+      sha256: ace919117a7520c13a50a6259e60c4a0d4cbe98809468792a91b5c5adada2aa6
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.2"
+  screen_retriever_linux:
+    dependency: transitive
+    description:
+      name: screen_retriever_linux
+      sha256: "7b52006a5ceae1f3d5af7f77188c3290d6e7d8ded16d99809bea84967c65c257"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.2"
+  screen_retriever_macos:
+    dependency: transitive
+    description:
+      name: screen_retriever_macos
+      sha256: a1489b99cce597c45a54b9aae1cd94c8d4705353b7e0bb2457a6e4de44e0ad8a
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.2"
+  screen_retriever_platform_interface:
+    dependency: transitive
+    description:
+      name: screen_retriever_platform_interface
+      sha256: "94a5535277510a63184ca178ce12a1449bc0b38618879aa1c18bf57369c5064a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.2"
+  screen_retriever_windows:
+    dependency: transitive
+    description:
+      name: screen_retriever_windows
+      sha256: dafc6922b0bfbf1d48cf3ccbf519b4fff47bdcb820da1728ea6db675fecc9324
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.2"
   sentry:
     dependency: transitive
     description:
@@ -2384,6 +2616,62 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.3"
+  webauthn_secure_storage:
+    dependency: "direct main"
+    description:
+      name: webauthn_secure_storage
+      sha256: "9412d1ecfe69a48923521096d9485189d50bf15b76274a059f695b3d622ac9bb"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.3"
+  webauthn_secure_storage_android:
+    dependency: transitive
+    description:
+      name: webauthn_secure_storage_android
+      sha256: d781ab6947553b50c407c08dca43d89c3bff82beab754bf46869184672e39de9
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.0"
+  webauthn_secure_storage_darwin:
+    dependency: transitive
+    description:
+      name: webauthn_secure_storage_darwin
+      sha256: "285d540725223cd2243126ad518c24ec762b01bed372db48df278bffa051da72"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.1"
+  webauthn_secure_storage_linux:
+    dependency: transitive
+    description:
+      name: webauthn_secure_storage_linux
+      sha256: "47c03ff3f4931f33f4b3f5055af59481a0ba036100a76af89b51cab63b1d5e1a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.0"
+  webauthn_secure_storage_platform_interface:
+    dependency: transitive
+    description:
+      name: webauthn_secure_storage_platform_interface
+      sha256: "5c89b98b3f28add54e22bf5bba340f7eca2e679d5deae8984cff03534d594694"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.0"
+  webauthn_secure_storage_web:
+    dependency: transitive
+    description:
+      name: webauthn_secure_storage_web
+      sha256: bd6137088ceeab20a4e3306ebfce7becfbfecfc8572d46bc1c78fcf7ea89089f
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.0"
+  webauthn_secure_storage_windows:
+    dependency: transitive
+    description:
+      name: webauthn_secure_storage_windows
+      sha256: "6e475c9081417344e64d90b302664ea14e5aca1f58be6bf513206ef2a527320b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.1"
   webdriver:
     dependency: transitive
     description:
@@ -2448,6 +2736,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.3"
+  window_manager:
+    dependency: "direct main"
+    description:
+      name: window_manager
+      sha256: "05c231fd7b23d2380f14c5cc10b7b93d60d4fa4a2fb4e0f032de27e44b5560e9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.2"
+  window_to_front:
+    dependency: transitive
+    description:
+      name: window_to_front
+      sha256: "14fad8984db4415e2eeb30b04bb77140b180e260d6cb66b26de126a8657a9241"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.4"
   windows_file_picker:
     dependency: transitive
     description:

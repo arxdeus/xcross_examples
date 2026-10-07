@@ -75,6 +75,11 @@ dependencies:
   # fixes, iOS floor 16.0) from https://github.com/stonemaster/xcross-test2.
   flutter_chrome_cast:
     path: packages/flutter_chrome_cast
+  flutter_better_auth: ^0.6.5
+  window_manager: ^0.5.1
+  passkeys: ^2.23.1
+  webauthn_secure_storage: ^0.2.3
+  local_auth: ^3.0.2
 
 dev_dependencies:
   drift_dev: ^2.31.0
