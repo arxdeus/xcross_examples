@@ -80,6 +80,7 @@ dependencies:
   passkeys: ^2.23.1
   webauthn_secure_storage: ^0.2.3
   local_auth: ^3.0.2
+  cached_network_image: ^4.0.4
 
 dev_dependencies:
   drift_dev: ^2.31.0
